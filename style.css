@@ -21,6 +21,11 @@
     margin-bottom: 140px;
 }
 
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
 .hero-box h1,
 .hero-box p {
     width: 45%;
@@ -34,8 +39,6 @@
     margin-left: auto;
 }
 
-
-
 .hero-box h1 {
     color: white;
     font-size: 4rem;
@@ -45,12 +48,12 @@
 
 .hero-box p {
     color: white;
-    font-size: 1rem;
     margin-bottom: 32px;
     /* font-weight: 700; */
 }
 
-button {
+button,
+input[type="submit"] {
     color: #005FAC;
     background-color: white;
     border: none;
@@ -91,8 +94,6 @@ main {
 
 .content p {
     color: #444343;
-    line-height: 1.6;
-    font-size: 1rem;
     margin-bottom: 16px;
 }
 
@@ -143,8 +144,10 @@ ul.tick li:before {
     background-image: url('images/gradient3.png'), url('images/watch.png');
     background-position: right, right;
     background-repeat: no-repeat, no-repeat;
-    padding: 60px auto 60px 64px;
+    background-size: cover, cover;
+    padding: 60px 0 60px 64px;
     margin: 130px 0;
+    border-radius: 8px;
 }
 
 .banner h2 {
@@ -152,4 +155,69 @@ ul.tick li:before {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 24px;
+    width: 50%;
+}
+
+/* Footer Section */
+footer {
+    background-color: #151414;
+    padding: 130px 230px;
+    color: #FFF;
+    display: flex;
+    /* gap: 230px; */
+    justify-content: space-between;
+}
+
+.footer-parts-1 {
+    width: 45%;
+}
+
+.footer-parts-1 h2 {
+    color: #F8F8F8;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.footer-parts-2 h3 {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+footer p {
+    margin-bottom: 24px;
+}
+
+address {
+    font-style: normal;
+    margin-bottom: 2rem;
+}
+
+form {
+    width: 325px;
+    /* margin-right: 0; */
+}
+
+input[type="email"] {
+    font-size: 1.25rem;
+    display: block;
+    margin-bottom: 16px;
+    background-color: #151414;
+    color: #FFF;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #005FAC;
+    color: white;
+}
+
+
+.social-links a {
+    margin-right: 18px;
 }
