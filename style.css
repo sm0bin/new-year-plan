@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* body {} */
+
+.hero-box {
+    padding: 210px 230px 160px;
+    background-image: url('images/banner/banner3.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative;
+    float: right; */
+    text-align: right;
+    margin-bottom: 140px;
+}
+
+.hero-box h1,
+.hero-box p {
+    width: 45%;
+}
+
+.hero-box h1,
+.hero-box p,
+.hero-box button {
+
+    margin-right: 0;
+    margin-left: auto;
+}
+
+
+
+.hero-box h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.hero-box p {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 32px;
+    /* font-weight: 700; */
+}
+
+button {
+    color: #005FAC;
+    background-color: white;
+    border: none;
+    padding: 20px 26px;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    /* transition: all 0.3s ease-in-out; */
+}
+
+/* Main Section */
+main {
+    padding: 0 230px;
+}
+
+.previous {
+    display: flex;
+    gap: 100px;
+}
+
+.previous img {
+    width: 530px;
+}
+
+.content {
+    /* display: flex;
+    gap: 100px; */
+    margin-top: 240px;
+}
+
+.content h2 {
+    color: #151414;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.content p {
+    color: #444343;
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+ul.tick {
+    list-style-position: inside;
+    /* line-height: 8px; */
+    list-style-type: none;
+}
+
+ul.tick li {
+    margin-bottom: 8px;
+}
+
+ul.tick li:before {
+    content: "\2714\0020";
+    color: #16D887;
+}
+
+.my-plans h2 {
+    margin: 130px 0 50px;
+    color: #151414;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #151414;
+    margin: 24px 0 16px;
+}
+
+.card p {
+    color: #737272;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* Banner Section */
+.banner {
+    background-image: url('images/gradient3.png'), url('images/watch.png');
+    background-position: right, right;
+    background-repeat: no-repeat, no-repeat;
+    padding: 60px auto 60px 64px;
+    margin: 130px 0;
+}
+
+.banner h2 {
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
