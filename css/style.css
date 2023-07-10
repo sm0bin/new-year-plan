@@ -11,7 +11,7 @@
 
 .hero-box {
     padding: 210px 230px 160px;
-    background-image: url('images/banner/banner3.png');
+    background-image: url('../images/banner/banner3.png');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -141,7 +141,7 @@ ul.tick li:before {
 
 /* Banner Section */
 .banner {
-    background-image: url('images/gradient3.png'), url('images/watch.png');
+    background-image: url('../images/gradient3.png'), url('../images/watch.png');
     background-position: right, right;
     background-repeat: no-repeat, no-repeat;
     background-size: cover, cover;
